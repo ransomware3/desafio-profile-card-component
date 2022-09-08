@@ -1,0 +1,9 @@
+:root{
+    --primary-background: hsl(185, 75%, 39%);
+    --primary-strong: hsl(229, 23%, 23%);
+    --primary-weak: hsl(227, 10%, 46%);
+
+    --neutral-soft: hsl(0, 0%, 59%);
+}
+
+/* Font size (name and stats): 18px */

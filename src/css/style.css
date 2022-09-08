@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html, body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+main{
+    background-color: var(--primary-background);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile-card{
+    max-width: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    height: 375px;
+}
+
+
+.img-header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.profile-card .avatar, .profile-card .main-info, .profile-card .popularity{
+    position: relative;
+    top: -50px;
+}
+
+
+.profile-card .avatar{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+
+.profile-card .main-info{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.profile-card .main-info .name-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.profile-card .main-info .name-container .name, .profile-card .popularity .engagament .atribute-number{
+    font-size: 18px;
+    color: var(--primary-strong);
+}
+
+
+.profile-card .main-info .name-container .age, .profile-card .main-info .county{
+    color: var(--primary-weak);
+}
+
+
+.profile-card .main-info .county{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+.profile-card .popularity{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+
+.profile-card .popularity .engagament{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.profile-card .popularity .engagament .account-atribute{
+    font-size: 10px;
+    margin-top: 5px;
+    color: var(--primary-weak);
+}
